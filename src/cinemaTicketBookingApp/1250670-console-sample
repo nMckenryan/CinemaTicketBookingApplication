@@ -1,0 +1,74 @@
+Enter your Name: 
+Nigel
+Enter your Age: 
+24
+Are you a student? (Type Y or N): 
+Y
+1. Ant-Man (P)
+2. Minions (P)
+3. Jurassic World (M)
+4. Inside Out (G)
+Which film would you like to watch?
+1
+-------------------------------------------------------------------
+FILM TICKET FOR: Ant-Man. Rating: (P)
+Customer Details: Nigel age: 24 Student?: y
+TOTAL COST: $8.50
+-------------------------------------------------------------------
+Would you like to purchase another ticket? (Y / N)
+Y
+Enter your Name: 
+David
+Enter your Age: 
+66
+Are you a student? (Type Y or N): 
+N
+1. Ant-Man (P)
+2. Minions (P)
+3. Jurassic World (M)
+4. Inside Out (G)
+Which film would you like to watch?
+2
+-------------------------------------------------------------------
+FILM TICKET FOR: Minions. Rating: (P)
+Customer Details: David age: 66 Student?: n
+TOTAL COST: $9.30
+-------------------------------------------------------------------
+Would you like to purchase another ticket? (Y / N)
+Y
+Enter your Name: 
+Mavis
+Enter your Age: 
+1
+Are you a student? (Type Y or N): 
+N
+1. Ant-Man (P)
+2. Minions (P)
+3. Jurassic World (M)
+4. Inside Out (G)
+Which film would you like to watch?
+3
+Sorry, You are not old enough to see this film. 
+
+Would you like to purchase another ticket? (Y / N)
+Y
+Enter your Name: 
+Steve
+Enter your Age: 
+16
+Are you a student? (Type Y or N): 
+Y
+1. Ant-Man (P)
+2. Minions (P)
+3. Jurassic World (M)
+4. Inside Out (G)
+Which film would you like to watch?
+4
+-------------------------------------------------------------------
+FILM TICKET FOR: Inside Out. Rating: (G)
+Customer Details: Steve age: 16 Student?: y
+TOTAL COST: $5.95
+-------------------------------------------------------------------
+Would you like to purchase another ticket? (Y / N)
+N
+Goodbye!
