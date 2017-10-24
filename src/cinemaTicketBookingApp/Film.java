@@ -2,16 +2,16 @@ package cinemaTicketBookingApp;
 
 public class Film {
 	private String filmTitle;
-	private Rating Rating;
+	private RATING rating;
 	
-	public Film(String title, Rating rate) {
+	public Film(String title, RATING rate) {
 		this.setTitle(title);
 		this.setRating(rate);
 	}
 	
 	public Film(){
 		this.filmTitle = "Unknown";
-		this.Rating = Rating.GENERAL;
+		this.rating = RATING.G;
 	}
 	
 	public String getTitle()
@@ -24,18 +24,18 @@ public class Film {
 		this.filmTitle = name;
 	}
 	
-	public Rating getRating()
+	public RATING getRating()
 	{
-		return this.Rating;
+		return this.rating;
 	}
 	
-	public void setRating(Rating rate)
+	public void setRating(RATING rate)
 	{
-		this.Rating = rate;
+		this.rating = rate;
 	}
 	
 	public String toString()
 	{
-		return this.filmTitle+" ("+this.Rating+")";
+		return this.filmTitle+" ("+this.rating+")";
 	}
 }
